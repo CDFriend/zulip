@@ -238,6 +238,7 @@ const settings_labels = {
     push_notifications: i18n.t("Mobile notifications"),
     email_notifications: i18n.t("Email notifications"),
     pin_to_top: i18n.t("Pin stream to top of left sidebar"),
+    wildcard_mentions_notify: i18n.t("Notifications for @all/@everyone mentions")
 };
 
 const check_realm_setting = {
