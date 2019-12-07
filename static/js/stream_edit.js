@@ -227,6 +227,8 @@ function show_subscription_settings(sub_row) {
 exports.is_notification_setting = function (setting_label) {
     if (setting_label.indexOf("_notifications") > -1) {
         return true;
+    } else if (setting_label.indexOf("_notify") > -1) {
+        return true;
     }
     return false;
 };
