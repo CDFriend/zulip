@@ -1633,7 +1633,6 @@ class SubscriptionPropertiesTest(ZulipTestCase):
         self.assertIsNotNone(updated_sub)
         self.assertEqual(updated_sub.wildcard_mentions_notify, True)
 
-
     def test_set_pin_to_top(self) -> None:
         """
         A POST request to /api/v1/users/me/subscriptions/properties with stream_id and
